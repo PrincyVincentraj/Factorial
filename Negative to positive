@@ -1,0 +1,27 @@
+package NegativetoPostive;
+
+import java.util.Scanner;
+
+public class NegativeToPostivePrgm {
+
+	public static void main(String[] args) {
+		int number;
+        int positiveNumber;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+
+        number = sc.nextInt();
+
+        if (number < 0) {
+            positiveNumber = number * (-1);
+            System.out.println("The PosstiveNumberis");
+            System.out.println(positiveNumber);
+	
+        }
+        else 
+        {
+        	System.out.println("You Entered Postive Number");
+        }
+	}
+}
